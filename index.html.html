@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <body>
+        <div class="kolo">
+            <div class="twelve">12</div>
+            <div class="one">1</div>
+            <div class="two">2</div>
+            <div class="three">3</div>
+            <div class="foor">4</div>
+            <div class="five">5</div>
+            <div class="six">6</div>
+            <div class="seven">7</div>
+            <div class="eight">8</div>
+            <div class="nine">9</div>
+            <div class="ten">10</div>
+            <div class="eleven">11</div>
+            <div class="sekunde"></div>
+            <div class="minute"></div>
+            <div class="hav"></div>
+            <div class="сentr"></div>
+
+        </div>
+
+    </body>
+    <style type="text/css">
+        .kolo {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            margin: 50px;
+            border: 4px solid #503926;
+            border-radius: 50%;
+        }
+
+        .sekunde {
+            position: absolute;
+            width: 2px;
+            height: 90px;
+            left: 102px;
+            top: 6px;
+            background: #060707;
+            animation: hand 60s infinite steps(60);
+            transform-origin: 0 90px;
+        }
+
+        .hav {
+            position: absolute;
+            width: 4px;
+            height: 56px;
+            left: 100px;
+            top: 40px;
+            background: #0b2726;
+            animation: hand 43200s infinite steps(12);
+            transform-origin: 0 58px;
+        }
+
+        .minute {
+            position: absolute;
+            width: 3px;
+            height: 70px;
+            left: 100px;
+            top: 28px;
+            background: #4f6160;
+            animation: hand 3600s infinite steps(60);
+            transform-origin: 0 68px;
+        }
+
+        .сentr {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            top: 88px;
+            left: 94px;
+            background: #3a0e0e;
+        }
+
+        @keyframes hand {
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .twelve,
+        .one,
+        .two,
+        .three,
+        .foor,
+        .five,
+        .six,
+        .seven,
+        .eight,
+        .nine,
+        .ten,
+        .eleven {
+            position: absolute;
+            font-style: sans-serif;
+            font-weight: 40px;
+            color: #3a0e0e;
+            text-shadow: rgb(34, 16, 4) 1px 0 6px;
+            font-weight: bold;
+        }
+
+        .twelve {
+            top: 3px;
+            left: 93px;
+        }
+
+        .one {
+            left: 141px;
+            top: 13px;
+        }
+
+        .two {
+            left: 169px;
+            top: 42px;
+        }
+
+        .three {
+            left: 180px;
+            top: 83px;
+        }
+
+        .foor {
+            top: 130px;
+            left: 168px;
+        }
+
+        .five {
+            left: 139px;
+            top: 159px;
+        }
+
+        .six {
+            left: 97px;
+            top: 175px;
+        }
+
+        .seven {
+            top: 159px;
+            left: 46px;
+        }
+
+        .eight {
+            top: 130px;
+            left: 21px;
+        }
+
+        .nine {
+            left: 9px;
+            top: 85px;
+        }
+
+        .ten {
+            top: 42px;
+            left: 21px
+        }
+
+        .eleven {
+            top: 13px;
+            left: 50px;
+
+
+        }
+    </style>
+
+</html>
